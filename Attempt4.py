@@ -7,4 +7,4 @@ miles = kilometers * 0.6213
 # Output the results
 print(f"\n{kilometers} km = {miles} mi\n\n")
 print(f"Press any button to exit")
-input()
+input() # Completely forgot I used the integer function and not the input function to prevent the code from closing out on itself
