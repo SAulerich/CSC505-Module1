@@ -5,6 +5,6 @@ kilometers = float(input("Enter distance in kilomteres: "))
 miles = kilometers * 0.6213
 
 # Output the results
-print(f"\n{kilometers} km = {miles.1f} mi\n\n")
+print(f"\n{kilometers} km = {miles.1f} mi\n\n") # Miswrote the floating decimal point, so I replaced the : to . to have the code function
 print(f"Press the 'ENTER' button to exit")
 input()
