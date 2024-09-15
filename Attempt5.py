@@ -5,6 +5,6 @@ kilometers = float(input("Enter distance in kilomteres: "))
 miles = kilometers * 0.6213
 
 # Output the results
-print(f"\n{kilometers} km = {miles}:2f mi\n\n")
-print(f"Press the 'ENTER' button to exit")
+print(f"\n{kilometers} km = {miles}:2f mi\n\n") # I did not want the decimal place of miles to be to the ten-thousandth place, so I condensed it to the hundredth place
+print(f"Press the 'ENTER' button to exit") # Realized that any other key function on the keyboard does not end the function of the code until entering the information
 input()
